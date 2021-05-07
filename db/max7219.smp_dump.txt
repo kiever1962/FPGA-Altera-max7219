@@ -1,0 +1,25 @@
+
+State Machine - |max7219|M7219:inst|state
+Name state.dig_0 state.dig_1 state.dig_2 state.dig_3 state.dig_4 state.dig_5 state.dig_6 state.dig_7 state.read_data state.init_4 state.init_3 state.init_2 state.init_1 
+state.init_1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.init_2 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.init_3 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.init_4 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.read_data 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.dig_7 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.dig_6 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.dig_5 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.dig_4 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.dig_3 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.dig_2 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.dig_1 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.dig_0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |max7219|M7219:inst|driver_state
+Name driver_state.finished driver_state.clk_low driver_state.clk_high driver_state.clk_data driver_state.start driver_state.idle 
+driver_state.idle 0 0 0 0 0 0 
+driver_state.start 0 0 0 0 1 1 
+driver_state.clk_data 0 0 0 1 0 1 
+driver_state.clk_high 0 0 1 0 0 1 
+driver_state.clk_low 0 1 0 0 0 1 
+driver_state.finished 1 0 0 0 0 1 
